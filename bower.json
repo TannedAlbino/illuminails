@@ -1,8 +1,8 @@
 {
-  "name": "angularfire-seed",
+  "name": "illuminails",
   "description": "A starter project for Angular + Firebase with AngularFire",
   "version": "1.0.0",
-  "homepage": "https://github.com/firebase/angularfire-seed",
+  "homepage": "https://github.com/22-homework/TannedAlbino/illuminails",
   "license": "MIT",
   "private": true,
   "dependencies": {
