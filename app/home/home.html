@@ -1,4 +1,4 @@
-<h2>Home</h2>
+<!-- <h2>Home</h2>
 
 <p class="status good" ng-show="loggedIn">Hello! You are logged in with id {{user.uid}}.</p>
 <p class="status" ng-hide="loggedIn">Welcome. You are not <a href="#/login">logged in</a></p>
@@ -6,4 +6,64 @@
 <input ng-model="syncedValue.$value" type="text" ng-change="syncedValue.$save()" /> <b>{{syncedValue.$value}}</b>
 
 <p>Open <a ng-href="{{FBURL}}/syncedValue" target="_blank">Forge</a> or a <a target="_blank" href="#/">new window</a> to see this input update in real time.</p>
+ -->
+<div class="carousel fade-carousel slide" data-ride="carousel" data-interval="4000" id="bs-carousel">
+  <!-- Overlay -->
 
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#bs-carousel" data-slide-to="0" class="active"></li>
+    <li data-target="#bs-carousel" data-slide-to="1"></li>
+    <li data-target="#bs-carousel" data-slide-to="2"></li>
+  </ol>
+  
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item slides active">
+      <div class="slide-1">
+          <div class="overlay"></div>
+      </div>
+      <div class="hero">
+        <hgroup>
+            <!-- <img src="home/title.png"> -->
+            <!-- <h1><i><font size="30">Illuminails</font></i></h1> -->
+            <br><br><br>
+            <h1>You are unique</h1>        
+            <h3>The finer details to match your style</h3>
+			<br>
+            <h4>Fashion Technology will be taken to a level that can keep up with you</h4>
+        </hgroup>
+        <!-- <button class="btn btn-hero btn-lg" role="button">See all features</button> -->
+      </div>
+    </div>
+    <div class="item slides">
+      <div class="slide-2">
+          <div class="overlay"></div>
+      </div>
+      <div class="hero">        
+        <hgroup>
+            <h1>You are creative</h1>        
+            <h3>Create your own art and point at the world</h3>
+            <br>
+            <h4>Designs that are only limited by your imagination</h4>
+        </hgroup>       
+        <!-- <button class="btn btn-hero btn-lg" role="button">See all features</button> -->
+      </div>
+    </div>
+    <div class="item slides">
+      <div class="slide-3">
+          <div class="overlay"></div>
+      </div>
+      <div class="hero">        
+        <hgroup>
+            <h1>You when you want to be</h1>        
+            <h3>Your decisions when you want them</h3>
+            <br>
+            <h4>No longer will you be held to a fashion decision for weeks</h4>
+
+        </hgroup>
+        <!-- <button class="btn btn-hero btn-lg" role="button">See all features</button> -->
+      </div>
+    </div>
+  </div> 
+</div>

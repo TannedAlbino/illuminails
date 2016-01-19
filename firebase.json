@@ -1,5 +1,5 @@
 {
-  "firebase": "INSTANCE",
+  "firebase": "illuminails",
   "public": "app",
   "ignore": [
     "firebase.json",

@@ -15,7 +15,7 @@
         if( unbind ) { unbind(); }
         profile.$destroy();
         Auth.$unauth();
-        $location.path('/login');
+        $location.path('/home');
       };
 
       $scope.changePassword = function(pass, confirm, newPass) {

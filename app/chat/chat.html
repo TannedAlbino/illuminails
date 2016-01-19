@@ -1,18 +1,11 @@
 <div class="row">
   <div class="col-md-4"></div>
   	<div class="col-md-4">
-<h2>Polish Pallette</h2>
+		<h2>Polish Pallette</h2>
 	</div>
   	<div class="col-md-4"></div>
 </div>
-<form><input type="text" id="output" value="#eeeeee">
-  <input id= "message" placeholder="Message..." ng-model="newMessage">
-  <button type="submit" ng-click="addMessage(newMessage);newMessage = null;">send</button>
-</form>
 
-<ul id="messages" ng-show="messages.length">
-    <li ng-repeat="message in messages | reverse">{{message.text}}</li>
-</ul>
 <div class="container-fluid">
 	<div class="row">
 	<div class="col-md-4"></div>
@@ -480,7 +473,16 @@
 	              </tr>
 	          </table>
 			</div>
-		
+			<!-- class="ng-valid ng-dirty ng-submitted ng-valid-parse" -->
+	<form class="ng-valid ng-dirty ng-submitted ng-valid-parse">
+  <!-- <input type="text" id="output" value="#eeeeee"> -->
+  <input id= "output" ng-model="newMessage"class="ng-valid ng-dirty ng-valid-parse ng-untouched">
+  <button type="submit" ng-click="addMessage(newMessage);newMessage = null;">SAVE</button>
+</form>
+
+<ul id="messages" ng-show="messages.length">
+    <li ng-repeat="message in messages | reverse">{{message.text}}</li>
+</ul>	
 
      
           
