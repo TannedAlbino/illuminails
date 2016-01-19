@@ -2,7 +2,7 @@
   "name": "illuminails",
   "description": "A starter project for Angular + Firebase with AngularFire",
   "version": "1.0.0",
-  "homepage": "https://github.com/TannedAlbino/illuminails",
+  "homepage": "https://github.com/TannedAlbino/illuminails.git",
   "license": "MIT",
   "private": true,
   "dependencies": {

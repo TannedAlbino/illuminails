@@ -2,8 +2,8 @@
   "name": "illuminails",
   "description": "Web app prototype for Illuminails",
   "version": "1.0.0",
-  "homepage": "https://github.com/TannedAlbino/illuminails",
-  "repository": "https://github.com/TannedAlbino/illuminails",
+  "homepage": "https://github.com/TannedAlbino/illuminails.git",
+  "repository": "https://github.com/TannedAlbino/illuminails.git",
   "private": true,
   "license": "MIT",
   "devDependencies": {
