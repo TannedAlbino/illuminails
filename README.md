@@ -1,3 +1,8 @@
+Used the angularfire-seed file (see below for information) to create app for illuminails.com
+
+
+
+
 # angularfire-seed — the seed for Angular+Firebase apps
 
 [![Build Status](https://travis-ci.org/firebase/angularfire-seed.svg)](https://travis-ci.org/firebase/angularfire-seed)
